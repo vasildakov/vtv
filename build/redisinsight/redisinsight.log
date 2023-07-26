@@ -1,0 +1,13 @@
+WARNING 2023-07-20 08:10:41,787 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/value-details/
+WARNING 2023-07-20 08:10:41,808 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:20,626 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/value-details/
+WARNING 2023-07-20 08:54:20,642 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:20,695 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:21,311 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:21,366 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/value-details/
+WARNING 2023-07-20 08:54:21,382 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:22,346 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/value-details/
+WARNING 2023-07-20 08:54:22,367 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:22,401 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/
+WARNING 2023-07-20 08:54:27,431 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/value-details/
+WARNING 2023-07-20 08:54:27,478 django.request Not Found: /api/instance/f7dd256b-1f98-4ddb-8174-266ba55d492d/key-metadata/

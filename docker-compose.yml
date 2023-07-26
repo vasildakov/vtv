@@ -1,0 +1,61 @@
+version: "3.9"
+services:
+  vtv_api:
+    container_name: vtv_api
+    build:
+      context: ./build/api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./api:/var/www/html
+    links:
+      - vtv_redis
+      - vtv_beanstalkd
+    environment:
+      - REDIS_URL=redis://cache
+    depends_on:
+      - vtv_redis
+      - vtv_beanstalkd
+
+  vtv_app:
+    container_name: vtv_app
+    build:
+      context: ./build/app
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+    volumes:
+      - ./app:/var/www
+
+  vtv_redis:
+    image: redis
+    container_name: vtv_redis
+    expose:
+      - 6379:6379
+
+  vtv_redisinsight:
+    image: redislabs/redisinsight:latest
+    container_name: vtv_redisinsight
+    ports:
+      - '8001:8001'
+    volumes:
+      - ./build/redisinsight:/db
+
+  vtv_beanstalkd:
+    container_name: vtv_beanstalkd
+    image: schickling/beanstalkd
+    ports:
+      - "11300:11300"
+
+  vtv_beanstalkd_console:
+    container_name: vtv_beanstalkd_console
+    image: agaveapi/beanstalkd-console
+    links:
+      - vtv_beanstalkd
+    ports:
+      - "8083:80"
+
+networks:
+  internal:
+    driver: bridge
