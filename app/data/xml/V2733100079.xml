@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Publication folder="/bmas/DE/Geschuetzter-Bereich/Tarifregister/Saarland" name="V2733100079.pdf" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<title grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Landesforsten (Waldarbeiter) Forst Deutschland m. Ausn. (V273003100079)</p></div></title>
+<altText></altText>
+<keywords></keywords>
+<internalComments></internalComments>
+<keywordsBoost></keywordsBoost>
+<mainLanguageEnt/>
+<defaultNavNode/>
+<languageInd/>
+<metaEnts/>
+<cl2Categories grammarName="bundonline-classifiedlinklist"><classifiedlinklists xmlns:xlink="http://www.w3.org/1999/xlink"><classifiedlinklist><classifier xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Classifications/Classifier/Common/Geltungsbereich.xml" cmexport:path="/bmas/SiteGlobals/Classifications/Classifier/Common/Geltungsbereich"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Rheinland-Pfalz.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Rheinland-Pfalz"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Berlin.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Berlin"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Bayern.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Bayern"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Brandenburg.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Brandenburg"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Schleswig-Holstein.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Schleswig-Holstein"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Sachsen.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Sachsen"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Thueringen.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Thueringen"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Saarland.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Saarland"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Niedersachsen.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Niedersachsen"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Sachsen-Anhalt.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Sachsen-Anhalt"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Baden-Wuerttemberg.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Baden-Wuerttemberg"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Mecklenburg-Vorpommern.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Mecklenburg-Vorpommern"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Nordrhein-Westfalen.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Nordrhein-Westfalen"/></classifiedlinklist></classifiedlinklists></cl2Categories>
+<dateOfModification format="dd.MM.yyyy HH:mm:ss Z">16.09.1982 02:00:00 +0200</dateOfModification>
+<externalID>V2733100079.pdf</externalID>
+<exchangeID></exchangeID>
+<dateOfIssue format="dd.MM.yyyy HH:mm:ss Z">01.08.2019 02:00:00 +0200</dateOfIssue>
+<llWebs/>
+<versionNr></versionNr>
+<downloadSize></downloadSize>
+<downloadNr></downloadNr>
+<downloadFeeValue></downloadFeeValue>
+<publicationFile href="V2733100079%2Epdf.publicationFile.pdf" mimetype="application/pdf"/>
+<fileSize></fileSize>
+<fileType></fileType>
+</Publication>

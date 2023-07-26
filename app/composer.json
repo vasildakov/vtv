@@ -1,0 +1,42 @@
+{
+    "name": "vtv/import",
+    "description": "VTV Import",
+    "type": "library",
+    "keywords": ["php"],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "ext-redis": "*",
+        "doctrine/orm": "^2.15",
+        "guzzlehttp/guzzle": "^7.7",
+        "laminas/laminas-console": "^2.8",
+        "laminas/laminas-diagnostics": "^1.24",
+        "laminas/laminas-servicemanager": "^3.15",
+        "laminas/laminas-xml2json": "^3.3",
+        "monolog/monolog": "^3.4",
+        "mtownsend/xml-to-array": "^2.0",
+        "pda/pheanstalk": "^4.0",
+        "psr/http-client": "^1.0",
+        "symfony/console": "^6.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "VTV\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

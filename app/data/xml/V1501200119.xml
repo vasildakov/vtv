@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Publication folder="/bmas/DE/Geschuetzter-Bereich/Tarifregister/Saarland" name="V1501200119" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<title grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Groß- und Außenhandel SL (V1501200119)</p></div></title>
+<altText></altText>
+<keywords></keywords>
+<internalComments></internalComments>
+<keywordsBoost></keywordsBoost>
+<mainLanguageEnt/>
+<defaultNavNode/>
+<languageInd/>
+<metaEnts/>
+<cl2Categories grammarName="bundonline-classifiedlinklist"><classifiedlinklists xmlns:xlink="http://www.w3.org/1999/xlink"><classifiedlinklist><classifier xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Classifications/Classifier/Common/Geltungsbereich.xml" cmexport:path="/bmas/SiteGlobals/Classifications/Classifier/Common/Geltungsbereich"/><link xlink:href="coremedia:///cap/resources/../../../../SiteGlobals/Categories/Bundeslaender/Saarland.xml" cmexport:path="/bmas/SiteGlobals/Categories/Bundeslaender/Saarland"/></classifiedlinklist></classifiedlinklists></cl2Categories>
+<dateOfModification format="dd.MM.yyyy HH:mm:ss Z">23.08.2011 02:00:00 +0200</dateOfModification>
+<externalID>V1501200119</externalID>
+<exchangeID></exchangeID>
+<dateOfIssue format="dd.MM.yyyy HH:mm:ss Z">03.04.2012 02:00:00 +0200</dateOfIssue>
+<llWebs/>
+<versionNr></versionNr>
+<downloadSize></downloadSize>
+<downloadNr></downloadNr>
+<downloadFeeValue></downloadFeeValue>
+<publicationFile href="V1501200119.publicationFile.pdf" mimetype="application/pdf"/>
+<fileSize></fileSize>
+<fileType></fileType>
+</Publication>

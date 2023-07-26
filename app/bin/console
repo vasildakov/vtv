@@ -1,0 +1,34 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+namespace VTV;
+
+error_reporting(E_ALL &~ E_DEPRECATED);
+
+include __DIR__ . '/../vendor/autoload.php';
+
+use Dotenv\Dotenv;
+use Symfony\Component\Console\Application;
+use VTV\Command\ProducerCreateJobs;
+use VTV\Command\ProducerDeleteCache;
+use VTV\Command\WorkerDispatchJob;
+use VTV\Command\DiagnosticsCommand;
+
+$dotenv = Dotenv::createImmutable('./');
+$dotenv->load();
+
+(function () {
+    /** @var \Psr\Container\ContainerInterface $container */
+    $container = require 'container.php'; // PSR-11: Container interface
+
+    $app = $container->get(Application::class);
+
+    $app->add($container->get(DiagnosticsCommand::class));
+    $app->add($container->get(WorkerDispatchJob::class));
+    $app->add($container->get(ProducerCreateJobs::class));
+    $app->add($container->get(ProducerDeleteCache::class));
+
+    $app->run();
+})();
